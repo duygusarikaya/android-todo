@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">TodoApp</string>
     <string name="title_activity_todoapp">Todo App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="uname">Name</string>
+    <string name="login_email_invalid">Please enter a valid email.</string>
+    <string name="login_password_invalid">Please enter a password</string>
+    <string name="search_action">Search</string>
+    <string name="logout_action">Logout</string>
+
 </resources>

@@ -17,4 +17,12 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="BorderedEditTextBox">
+        <item name="android:background">@drawable/textbox_border_white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/white_af</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
 </resources>
