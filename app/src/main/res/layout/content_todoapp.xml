@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ds.todoapp.TodoappActivity"
+    tools:context="ds.todoapp.ui.TodoappActivity"
     tools:showIn="@layout/activity_todoapp">
 
     <fragment

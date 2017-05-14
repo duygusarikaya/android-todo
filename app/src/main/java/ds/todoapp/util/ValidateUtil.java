@@ -22,7 +22,7 @@ public class ValidateUtil {
         return matcher.find();
     }
 
-    private static boolean isBlank(String str) {
+    public static boolean isBlank(String str) {
         if (str == null) {
             return true;
         }
@@ -36,5 +36,9 @@ public class ValidateUtil {
             return true;
         }
         return false;
+    }
+
+    public static boolean name(String name) {
+        return !(isBlank(name));
     }
 }

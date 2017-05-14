@@ -26,18 +26,25 @@
         </activity>
         <activity
             android:name=".ui.LoginActivity"
-            android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.NoActionBar"
             android:excludeFromRecents="true"
+            android:label="@string/title_activity_login"
             android:launchMode="singleTop"
+            android:parentActivityName=".ui.TodoappActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".ui.TodoappActivity"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.RegisterActivity"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar"
             android:launchMode="singleTop"
-            android:parentActivityName=".ui.LoginActivity"/>
+            android:parentActivityName=".ui.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.TodoDetailsActivity"
+            android:label="@string/title_activity_todo_details"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.TodoappActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

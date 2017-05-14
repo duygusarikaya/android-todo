@@ -3,12 +3,20 @@
     <string name="title_activity_todoapp">Todo App</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
     <string name="uname">Name</string>
     <string name="login_email_invalid">Please enter a valid email.</string>
     <string name="login_password_invalid">Please enter a password</string>
     <string name="search_action">Search</string>
     <string name="logout_action">Logout</string>
+    <string name="register_name_invalid">Please enter your name</string>
+    <string name="title_activity_todo_details">Task Details</string>
+    <string name="tasks_retrieve_error">Can\'t retrieve the tasks.</string>
+    <string name="title">Task Title</string>
+    <string name="details">Task Details</string>
+    <string name="task_title_invalid">Title cannot be empty</string>
+    <string name="deleted_task_fail">Cannot delete the task</string>
+    <string name="deleted_task_success">Selected task is deleted.</string>
 
 </resources>

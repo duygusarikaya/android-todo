@@ -5,6 +5,8 @@ import android.support.annotation.NonNull;
 import java.io.Serializable;
 import java.util.Date;
 
+import ds.todoapp.util.DateUtil;
+
 /**
  * Created by Duygu on 11/05/2017.
  */
@@ -13,7 +15,7 @@ public class Todo implements Serializable, Comparable<Todo>{
 
 
     public enum TodoState {
-        OPEN, INPROGRESS, DONE
+        open, inprogress, done
     }
     private String _id;
     private String userId;
@@ -41,8 +43,7 @@ public class Todo implements Serializable, Comparable<Todo>{
     }
 
     private Date getCreationDate() {
-        //TODO
-        return null;
+        return DateUtil.getDate(this.createdAt);
     }
 
     public String get_id() {
@@ -67,5 +68,17 @@ public class Todo implements Serializable, Comparable<Todo>{
 
     public TodoState getState() {
         return state;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    public void setState(TodoState state) {
+        this.state = state;
     }
 }

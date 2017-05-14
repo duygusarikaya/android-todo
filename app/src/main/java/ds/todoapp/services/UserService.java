@@ -85,6 +85,10 @@ public class UserService extends BaseService {
     }
 
     public boolean isLoggedIn() {
-        return (PrefsUtil.getUser(mSharedPreferences) == null) ? false : true;
+        return (getUser() == null) ? false : true;
+    }
+
+    public User getUser() {
+        return PrefsUtil.getUser(mSharedPreferences);
     }
 }
