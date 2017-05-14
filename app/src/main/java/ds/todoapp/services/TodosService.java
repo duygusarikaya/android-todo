@@ -7,7 +7,6 @@ import com.google.gson.Gson;
 import com.squareup.otto.Subscribe;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import ds.todoapp.clients.TodosRESTClient;
 import ds.todoapp.events.BaseEvent;
@@ -17,8 +16,6 @@ import ds.todoapp.events.DeleteTaskResponseEvent;
 import ds.todoapp.events.DeleteTaskResultEvent;
 import ds.todoapp.events.GetTasksResponseEvent;
 import ds.todoapp.events.GetTasksResultEvent;
-import ds.todoapp.events.UpdateTaskResponseEvent;
-import ds.todoapp.events.UpdateTaskResultEvent;
 import ds.todoapp.models.Todo;
 import ds.todoapp.models.Todos;
 import ds.todoapp.models.User;

@@ -3,14 +3,11 @@ package ds.todoapp.clients;
 import android.content.Context;
 import android.util.Log;
 
-import java.util.ArrayList;
-
 import ds.todoapp.api.TodosAPIService;
 import ds.todoapp.events.BaseEvent;
 import ds.todoapp.events.CreateTaskResponseEvent;
 import ds.todoapp.events.DeleteTaskResponseEvent;
 import ds.todoapp.events.GetTasksResponseEvent;
-import ds.todoapp.events.UpdateTaskResponseEvent;
 import ds.todoapp.models.Todo;
 import ds.todoapp.models.Todos;
 import retrofit2.Call;
