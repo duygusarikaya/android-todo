@@ -13,6 +13,7 @@
 *.apk
 *.ap_
 /*/build/
+!apk_build/app-debug.apk
 
 # Files for the ART/Dalvik VM
 *.dex
